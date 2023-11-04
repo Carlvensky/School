@@ -5,21 +5,21 @@ public class Calculator {
         // Create a Scanner object to read input
         Scanner scanner = new Scanner(System.in);
 
-        // Prompt the user to input the subtotal
-        System.out.print("Enter the subtotal: ");
-        double subtotal = scanner.nextDouble();
+            // Prompt the user to input the subtotal
+                System.out.print("Enter the subtotal: ");
+                double subtotal = scanner.nextDouble();
 
-        // Prompt the user to input the gratuity rate
-        System.out.print("Enter the gratuity rate (in percentage): ");
-        double gratuityRate = scanner.nextDouble();
+            // Prompt the user to input the gratuity rate
+                System.out.print("Enter the gratuity rate (in percentage): ");
+                double gratuityRate = scanner.nextDouble();
 
         // Close the Scanner
         scanner.close();
 
-        // Calculate the gratuity amount
+    // Calculate the gratuity amount
         double gratuity = (subtotal * gratuityRate) / 100;
 
-        // Calculate the total amount
+    // Calculate the total amount
         double total = subtotal + gratuity;
 
         // Display the results
