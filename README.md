@@ -1,5 +1,11 @@
 # School
-For my class project at Uni
+For my Programming (I & II) class project at Uni
 
-May 7, 2024 update
-I completed the class with an A+
+I completed the Programming (I) class with an A+
+I'm currently taking Programming (II).
+
+
+
+
+
+January 20, 2025 update
