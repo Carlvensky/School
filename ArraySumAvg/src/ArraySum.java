@@ -3,7 +3,17 @@ import java.util.Scanner;
 public class ArraySum {
     public static void main(String[] args) throws Exception {
 
-        Scanner numberInt = new Scanner(System.in);
-        System.out.print("How many integers do you want to enter?");
+        int[] array;
+
+        Scanner scanner = new Scanner(System.in);
+
+        int n = 0;
+        do {
+            System.out.print("How many integers do you want to enter? ");
+            n = scanner.nextInt();
+        } while (n <= 0);
+
+        scanner.close();
+        
     }
 }
