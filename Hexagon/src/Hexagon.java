@@ -15,13 +15,15 @@ public class Hexagon {
     }
 
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter the side of the hexagon: ");
-        double userInput = input.nextDouble();
+        double userInput = scanner.nextDouble();
 
         Hexagon userHexagon = new Hexagon(userInput);
 
         System.out.printf("The area of the hexagon is %.2f%n", userHexagon.calculateAreaOfHexagonWithOneSide());
+
+        scanner.close();
     }
 }
