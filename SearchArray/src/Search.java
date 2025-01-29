@@ -15,11 +15,10 @@ public class Search {
             if (numbers[i] == search) {
                 System.out.println("Number found at index " + i);
                 break;
-            } else {
-                System.out.println("Number not found");
-                break;
+                }
             }
-        }
+            System.out.println("Number not found");
+
         scanner.close();
+        }
     }
-}
