@@ -10,15 +10,21 @@ public class Search {
         System.out.print("Enter a number to search for: ");
         search = scanner.nextInt();
 
+        //Boolean to check if number is found
+        boolean found = false;
+
         //for loop to search for the number if found break out of the loop
         for (int i = 0; i < numbers.length; i++) {
             if (numbers[i] == search) {
                 System.out.println("Number found at index " + i);
+                found = true;
                 break;
-                }
-            }
-            System.out.println("Number not found");
-
-        scanner.close();
+            } 
         }
+        if(!found) {
+            System.out.println("Number not found");
+        }
+        
+        scanner.close();
     }
+}
