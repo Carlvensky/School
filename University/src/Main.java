@@ -1,3 +1,4 @@
+// time complexity is O(N)
 class Person {
     private String name;
     private int age;
