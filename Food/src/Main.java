@@ -38,7 +38,7 @@ public class Main {
         Food pizza = new Pizza("Pizza");
         Food burger = new Burger("Burger");
 
-        pizza.prepare(); // Output: Baking a pizza!
-        burger.prepare(); // Output: Grilling a burger!
+        pizza.prepare(); 
+        burger.prepare();
     }
 }
