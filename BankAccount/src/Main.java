@@ -40,14 +40,14 @@ class BankAccount {
 
 public class Main {
     public static void main(String[] args) {
-        BankAccount myAccount = new BankAccount("123456789", 500.0);
+        BankAccount myAccount = new BankAccount("123456789", 50.0);
 
         // Test deposit
-        myAccount.deposit(200.0);
+        myAccount.deposit(20.0);
 
         // Test withdraw
-        myAccount.withdraw(100.0);
-        myAccount.withdraw(700.0); // should print out insufficient funds
+        myAccount.withdraw(10.0);
+        myAccount.withdraw(70.0); // should print out insufficient funds
 
         // Print final balance
         System.out.println("Final Balance: $" + myAccount.getBalance());
