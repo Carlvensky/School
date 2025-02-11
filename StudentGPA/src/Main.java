@@ -1,3 +1,4 @@
+//the time complexity is O(1)
 class Student {
     private int id;
     private String name;
